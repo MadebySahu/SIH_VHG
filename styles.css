@@ -76,7 +76,7 @@ header nav ul li a:hover {
     background: #4cae4c;
 }
 
-/* Image Slider */
+
 
 /* Image Slider */
 .image-slider {
@@ -153,6 +153,22 @@ header nav ul li a:hover {
     font-size: 1.1rem; /* Slightly larger text for emphasis */
 }
 
+/* ... (rest of your CSS) */
+
+.redirect-button {
+    background-color: rgba(90, 138, 64, 0.8);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.redirect-button:hover {
+    background-color: rgba(90, 138, 64, 0.9);
+}
+
 /* Optional: Add arrow controls */
 .slider-controls {
     position: absolute;
@@ -210,6 +226,7 @@ header nav ul li a:hover {
 }
 
 
+
 /* Content Sections */
 section {
     padding: 2rem;
@@ -239,7 +256,6 @@ section img {
     border-radius: 5px;
 }
 
-/* About Section */
 /* About Section */
 #about {
     padding: 40px 20px;
@@ -332,7 +348,7 @@ section img {
 
 
 
-/* Grid Layout */
+
 /* Grid Layout */
 /* Plant Grid, Benefits Content, Testimonials Grid */
 .plant-grid, .benefits-content, .testimonials-grid {
